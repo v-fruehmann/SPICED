@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <<meta charset="utf-8">
+    <link rel="stylesheet" href="/Users/Varvara/spiced_working_files/flask/static/css/main.css">
+    <title>MOVIE RECOMMENDER</title>
+    
+  </head>
+
+  <body style="background-color:burlywood;">
+
+    <h1 id="h1_main" style="text-align: center">What do you want to watch today?</h1>
+    <p style="text-align: center">Get film recommendations</p>
+
+   
+
+    <section class="main-splash">  
+        <h2 style="text-align: center">Movie Recommender</h2><br>
+        <p style="text-align:center;"><img src="https://www.kindpng.com/picc/m/8-81131_film-clipart-movie-review-movie-review-png-transparent.png" alt="Film Clipart Movie Review"></p>
+        <br><br>
+      <div >
+        <form action='/recommendations' method='get' style="text-align:center">
+          <h3 class="merp">Let's rate these movies from 0 to 5:</h3><br>
+          'Silence of the Lambs, The (1991)': <input type=text name="'Silence of the Lambs, The (1991)'" placeholder="0-5" required><br><p></p>
+          'Fight Club (1999)': <input type=text name="'Fight Club (1999)'" placeholder="0-5" required><br><p></p>
+          'The Butterfly Effect (2004)': <input type=text name="The Butterfly Effect (2004)'" placeholder="0-5" required><br><p></p>
+          '(500) Days of Summer (2009)': <input type=text name="'(500) Days of Summer (2009)'" placeholder="0-5" required><br><p></p>
+          "Schindler's List (1993)": <input type=text name="'Schindler's List (1993)'" placeholder="0-5" required><br><p></p>
+          <br><br>
+          <input type="submit" value="Get recommendations" class="submit-button">
+        </form>
+      </div>
+    </section>
+    
+    
+  </body>
+
+
+  </html>

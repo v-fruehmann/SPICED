@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="/Users/Varvara/spiced_working_files/flask/static/css/main.css">
+    <title>MOVIE RECOMMENDER</title>
+    <a><img src="https://www.home-connect-plus.com/wp-content/uploads/Familie-sieht-sich-gemeinsam-einen-Film-an_21_9-1-1400x600.jpg"> </a>
+       
+</head>
+
+
+<body style="background-color:burlywood;">
+
+<br><br><br>
+  <div class="container" style="text-align: center">
+      <div class="col">
+        
+  <h1 id="h1_recommendations" style="text-align: center">We recommend you to watch these movies:</h1>
+          <p><span>1. {{recommendations[0]}}</span></p>
+          <p><span>2. {{recommendations[1]}}</span></p>
+          <p><span>3. {{recommendations[2]}}</span></p>
+          <p><span>4. {{recommendations[3]}}</span></p>
+          <p><span>5. {{recommendations[4]}}</span></p>
+          <p><span>6. {{recommendations[5]}}</span></p>
+          <p><span>7. {{recommendations[6]}}</span></p>
+          <p><span>8. {{recommendations[7]}}</span></p>
+          <p><span>9. {{recommendations[8]}}</span></p>
+          <p><span>10. {{recommendations[9]}}</span></p>
+      </div>
+  </div>
+
+
+  <br><br>
+  <div class="container" style="text-align: center">
+      <div class="col-sm">
+        
+        <h2 id="h2_recommendations" style="text-align: center">You might like these movies as well:</h2><br>
+          <p><span>1. {{similar_movies[0]}}</span></p>
+          <p><span>2. {{similar_movies[1]}}</span></p>
+          <p><span>3. {{similar_movies[2]}}</span></p>
+      </div>
+  </div>
+
+<br><br>
+<br><br><br>
+
+
+</body>
+
+
+</html>
